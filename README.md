@@ -36,4 +36,4 @@ To ensure transparency, the dataset used in this research was integrated from th
    *Source:* [JHU COVID-19 Dashboard / Our World in Data](https://github.com/CSSEGISandData/COVID-19)
 
 3. **Oxford COVID-19 Government Response Tracker (OxCGRT):** The **Stringency Index** and other policy response metrics were sourced from the Blavatnik School of Government, University of Oxford.  
-   *Source:* [Oxford COVID-19 Government Response Tracker](https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker)
+   *Source:* [Oxford COVID-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-dataset)
