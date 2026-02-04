@@ -36,5 +36,3 @@ To ensure **Transparency and Reproducibility** (as recommended by peer reviewers
     * **ARIMA:** Robust automated parameter selection tailored for small data samples in specific waves.
     * **Prophet:** Configured to handle additive seasonality and Thai public holiday effects.
     * **x-xgboost:** An optimized XGBRegressor utilizing 9 key features to capture non-linear behavioral shifts.
-    * 
-
