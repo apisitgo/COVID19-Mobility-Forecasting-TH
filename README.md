@@ -22,17 +22,3 @@ To ensure transparency, the dataset used in this research was integrated from th
 
 3. **Oxford COVID-19 Government Response Tracker (OxCGRT):** The **Stringency Index** and other policy response metrics were sourced from the Blavatnik School of Government, University of Oxford.  
    *Source:* [Oxford COVID-19 Government Response Tracker](https://github.com/OxCGRT/covid-policy-dataset)
-   
-## 🛠️ Methodology
-
-### 1. Data Preprocessing & Feature Engineering
-* **Data Sources:** Google Community Mobility Reports, Stringency Index (Oxford Tracker), and COVID-19 daily case statistics.
-* **Engineered Features:** Lockdown levels (categorized by severity), public holidays, and temporal variables (day of week, week number, seasonality).
-
-### 2. Forecasting Framework
-To ensure **Transparency and Reproducibility** (as recommended by peer reviewers), this project implements:
-* **Rolling Origin Approach:** Instead of a single train-test split, we use a rolling window to evaluate model stability over time.
-* **Model Configurations:**
-    * **ARIMA:** Robust automated parameter selection tailored for small data samples in specific waves.
-    * **Prophet:** Configured to handle additive seasonality and Thai public holiday effects.
-    * **x-xgboost:** An optimized XGBRegressor utilizing 9 key features to capture non-linear behavioral shifts.
