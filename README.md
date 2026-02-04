@@ -10,9 +10,8 @@ This repository contains the official Python implementation for the study analyz
 * **Performance Benchmarking:** Evaluate the accuracy of **ARIMA**, **Facebook Prophet**, and an enhanced **x-xgboost** model.
 * **Feature Impact Analysis:** Quantify the influence of government interventions (**Stringency Index**) versus epidemiological data (**Daily Cases**) using Feature Importance metrics (Weight, Gain, and Cover).
 * **Robust Evaluation:** Utilize the **Rolling Origin Cross-Validation** (Walk-forward) technique to simulate real-world forecasting scenarios.
-* 
-## 📊 Data Sources and References
 
+## 📊 Data Sources and References
 To ensure transparency, the dataset used in this research was integrated from the following reputable sources:
 
 1. **Google COVID-19 Community Mobility Reports:** Used to measure movement trends across different categories of places (Retail, Grocery, Parks, Transit, Workplaces, and Residential).  
